@@ -1,5 +1,6 @@
 import { connect, styled } from "frontity";
 import Link from "./link";
+import { css } from "frontity";
 
 /**
  * Navigation Component
@@ -24,9 +25,6 @@ const Nav = ({ state }) => (
     })}
   </NavContainer>
 );
-
-
-
 
 export default connect(Nav);
 
@@ -56,26 +54,13 @@ const NavItem = styled.div`
   & > a {
     display: inline-block;
     line-height: 2em;
-    border-top: 2px solid;
-    border-top-color: transparent;
-    color: #112d5d;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 1.25em;
-    margin-top: 10px;
+    border-bottom: 2px solid;
+    border-bottom-color: transparent;
     /* Use for semantic approach to style the current link */
     &[aria-current="page"] {
-      border-top-color: #3679d0;
-      color: #3679d0
+      border-bottom-color: #fff;
     }
   }
-
-
-
-
-
-
-
 
   &:first-of-type {
     margin-left: 0;

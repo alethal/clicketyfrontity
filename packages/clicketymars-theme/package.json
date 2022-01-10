@@ -1,0 +1,19 @@
+{
+  "name": "clicketymars-theme",
+  "version": "1.0.0",
+  "description": "NewTheme using Mars-Theme Parts",
+  "keywords": [
+    "frontity",
+    "frontity-clicketymarsTheme"
+  ],
+  "homepage": "https://clickety-clack.click",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "frontity": "^1.17.1",
+    "@frontity/components": "^1.8.2",
+    "@frontity/html2react": "^1.6.1"
+  }
+}
+
+
+

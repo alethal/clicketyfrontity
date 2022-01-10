@@ -2,14 +2,14 @@ const settings = {
   "name": "clicketyfrontity",
   "state": {
     "frontity": {
-      "url": "https://test.frontity.org",
-      "title": "TheSword - Frontity Blog",
-      "description": "WordPress installation for Frontity development"
+      "url": "https://localtransporter.space",
+      "title": "TheSword",
+      "description": "ReACT Experiment"
     }
   },
   "packages": [
     {
-      "name": "@frontity/mars-theme",
+      "name": "clicketymars-theme",
       "state": {
         "theme": {
           "menu": [
@@ -18,20 +18,24 @@ const settings = {
               "/"
             ],
             [
-              "Nature",
-              "/category/nature/"
+              "Sword Says",
+              "/category/swordsays/"
             ],
             [
-              "Travel",
-              "/category/travel/"
+              "NakedSword",
+              "https://nakedsword.com"
             ],
             [
-              "Japan",
-              "/tag/japan/"
+              "Live Chat",
+              "http://www.flirt4free.com/rooms?service=guys&mp_code=anpjd"
             ],
             [
-              "About Us",
-              "/about-us/"
+              "Tips",
+              "/tips-page/"
+            ],
+            [
+              "(PostsPage)",
+              "/postspage/"
             ]
           ],
           "featured": {
@@ -45,7 +49,10 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "api": "https://www.thesword.com/wp-json"
+          "api": "https://www.thesword.com/wp-json",
+          "url": "https://www.thesword.com",
+          "homepage": "gay-sex-life",
+          "postsPage": "postspage"
         }
       }
     },
